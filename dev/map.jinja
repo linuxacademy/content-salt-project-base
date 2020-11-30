@@ -1,0 +1,14 @@
+{% set dev = salt['grains.filter_by']({
+
+  'Debian': {
+    'vim': 'vim',
+    'python': 'python3',
+    'python-pip': 'python3-pip',
+  },
+  'RedHat': {
+    'vim': 'vim-enhanced',
+    'python': 'python3',
+    'python-pip': 'python3-pip',
+  },
+
+})%}
