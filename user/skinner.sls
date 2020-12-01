@@ -5,4 +5,4 @@ skinner:
     - home: /home/skinner
     - groups:
       - xfiles
-      - sudo
+      - wheel
