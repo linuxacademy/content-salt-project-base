@@ -6,4 +6,4 @@ install_python:
 
 install_pip:
   pkg.installed:
-    - name: {{ dev.python-pip}}
+    - name: {{ dev.pip }}
