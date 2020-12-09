@@ -1,3 +1,5 @@
+{% from "user/map.jinja" import user with context %}
+
 skinner:
   user.present:
     - fullname: Walter Skinner
@@ -5,4 +7,4 @@ skinner:
     - home: /home/skinner
     - groups:
       - xfiles
-      - wheel
+      - {{ sudoer }}
