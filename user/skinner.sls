@@ -7,4 +7,4 @@ skinner:
     - home: /home/skinner
     - groups:
       - xfiles
-      - {{ sudoer }}
+      - {{ user.sudoer }}
