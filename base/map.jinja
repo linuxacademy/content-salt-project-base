@@ -1,0 +1,10 @@
+{% set base = salt['grains.filter_by']({
+
+  'Debian': {
+    'vim': 'vim',
+  },
+  'RedHat': {
+    'vim': 'vim-enhanced',
+  },
+
+})%}
